@@ -27,7 +27,7 @@
 	
 /* EO */
 
-div{
+	div{
 		border-radius:			$curvedbox-small;
 		}
 	
@@ -278,6 +278,12 @@ div{
 		text-align:				center;
 		clear:					both;
 		padding:				20px;
+		font-family:			$sans-font;
+		}
+		
+	.avatar a{
+		font-family:			$sans-font;
+		
 		}
 	
 	.avatar-img {
@@ -383,9 +389,9 @@ div{
 		}
 		
 	.side-element h3{
-		font-size:				1.3em;
+		font-size:				0.7em;
 		margin-bottom:			0px;
-		padding-top:			30px;
+		padding-top:			25px;
 		}
 		
 	.side-element a{
@@ -407,9 +413,11 @@ div{
 	.side-element li{
 		list-style-type:		none;
 		border-bottom:			1px dotted #fff; 
-		padding-bottom:			20px;
-		padding-top:			20px;
+		padding-bottom:			10px;
+		padding-top:			10px;
 		overflow:				hidden;
+		font-family:			$sans-font;
+		font-weight:			bold;
 		}
 		
 	.side-element img{

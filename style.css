@@ -9,7 +9,7 @@ div {
 body {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-size: 0.86em;
-  background-color: whiteSmoke;
+  background-color: whitesmoke;
   margin: 0px;
   padding: 0px; }
 
@@ -91,7 +91,7 @@ h3 {
 .dark h1 {
   font-weight: bold;
   font-size: 2.5em;
-  color: whiteSmoke;
+  color: whitesmoke;
   margin: 20px 0 20px 0; }
 
 .dark h2 {
@@ -100,10 +100,10 @@ h3 {
 .dark h3 {
   font-size: 0.7em;
   text-transform: uppercase;
-  color: whiteSmoke; }
+  color: whitesmoke; }
 
 .dark p {
-  color: whiteSmoke; }
+  color: whitesmoke; }
 
 p {
   font-family: "Droid Serif", serif;
@@ -135,7 +135,7 @@ p {
   clear: both; }
 
 .blockquote {
-  background-color: whiteSmoke;
+  background-color: whitesmoke;
   font-style: italic;
   padding: 20px;
   border-left: 5px #ffb87f solid;
@@ -184,12 +184,12 @@ p {
   background-color: #607890;
   font-weight: bold;
   text-decoration: none;
-  color: whiteSmoke;
+  color: whitesmoke;
   border-radius: 5px;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
 
 .button:hover {
-  background-color: #a9a9a9;
+  background-color: darkgrey;
   text-decoration: none;
   color: #fbfbfb; }
 
@@ -223,7 +223,11 @@ p {
   margin: auto;
   text-align: center;
   clear: both;
-  padding: 20px; }
+  padding: 20px;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
+
+.avatar a {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
 
 .avatar-img {
   width: 50px;
@@ -315,9 +319,9 @@ p {
   background-repeat: no-repeat; }
 
 .side-element h3 {
-  font-size: 1.3em;
+  font-size: 0.7em;
   margin-bottom: 0px;
-  padding-top: 30px; }
+  padding-top: 25px; }
 
 .side-element a {
   font-size: 0.9em;
@@ -335,9 +339,11 @@ p {
 .side-element li {
   list-style-type: none;
   border-bottom: 1px dotted #fff;
-  padding-bottom: 20px;
-  padding-top: 20px;
-  overflow: hidden; }
+  padding-bottom: 10px;
+  padding-top: 10px;
+  overflow: hidden;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: bold; }
 
 .side-element img {
   width: 50px;
