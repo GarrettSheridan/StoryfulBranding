@@ -12,6 +12,8 @@
 		$storyful-gray:				#a9a9a9;
 		$storyful-dark-gray:		#333;
 		$storyful-light-gray:		#808080;
+		$storyful-link-buttons:		#607890;
+
 
 	/* Fonts */
 		$sans-font: 				"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
@@ -41,8 +43,7 @@
 		
 	.header{
 		background-color:		$storyful-orange;
-		height:					48px;
-		width:					100%;
+		width:					auto;
 		margin-bottom:			10px;
 		border-radius:			0px;
 		}
@@ -62,19 +63,21 @@
 		-webkit-box-shadow: 	$boxshadow;
 		box-shadow:       		$boxshadow;
 		max-width:				70%;
-		clear:both;
+		clear:					both;
+		float:					left;
 		
 		}
 		
 	.colours .content-wrapper{
 		padding:				40px;
 		margin:					auto;
-		margin-bottom:			20px;
-		max-width:600px;
+		margin-bottom:			10px;
+		max-width:				600px;
+		float:					none;
 		}
 	
 	a{
-		color:					#607890;
+		color:					$storyful-link-buttons;
 		text-decoration:		none;
 		}
 	
@@ -234,15 +237,17 @@
 		}
 	
 	.button{
-		margin:					20px;
-		clear:					both;
 		padding:				10px 15px 10px 15px;
-		background-color:		#607890;
+		background-color:		$storyful-link-buttons;
 		font-weight:			bold;
 		text-decoration:		none;
 		color:					$storyful-dark-white;
 		border-radius:			5px;
 		font-family:			$sans-font;
+		overflow:				hidden;
+		margin:					20px 0 0 0;
+		float:					left;
+		clear:both;
 	}
 	
 	.button:hover{
@@ -373,7 +378,6 @@
 		margin-top:				10px;
 		display:				block;
 		}
-		
 		
 	.recent{
 		background-image:		url('icon_twitter.png');
