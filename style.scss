@@ -62,13 +62,14 @@
 		-webkit-box-shadow: 	$boxshadow;
 		box-shadow:       		$boxshadow;
 		max-width:				70%;
-		float:					left;
+		clear:both;
 		
 		}
 		
 	.colours .content-wrapper{
 		padding:				40px;
 		margin:					auto;
+		margin-bottom:			20px;
 		max-width:600px;
 		}
 	
