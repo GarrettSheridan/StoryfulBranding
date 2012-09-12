@@ -1,3 +1,6 @@
+/* Run the watcher to convert this to css (sass --watch style.scss:style.css) */
+
+
 /* Variables */
 
 	/* Colours */
@@ -239,7 +242,7 @@
 		}
 	
 	.button{
-		padding:				10px 15px 10px 15px;
+		padding:				8px 15px 8px 15px;
 		background-color:		$storyful-link-buttons;
 		font-weight:			bold;
 		text-decoration:		none;
