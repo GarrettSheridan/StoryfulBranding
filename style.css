@@ -253,7 +253,7 @@ p {
   margin-bottom: 20px; }
 
 .pullquote {
-  width: 185px;
+  width: 38%;
   float: right;
   font-family: "Droid Serif", serif;
   font-size: 1.43em;
@@ -364,3 +364,78 @@ p {
   border-radius: 50px;
   margin-right: 10px;
   float: left; }
+
+/* 990 */
+body {
+  margin: 0px;
+  padding: 0px;
+  font-size: 18px; }
+
+.grd-wrapper {
+  width: auto;
+  overflow: hidden; }
+
+.grd-content {
+  background-color: #fbfbfb;
+  width: 62%;
+  float: left; }
+
+.grd-sidebar {
+  /*background-color:		#c0eff0;*/
+  font-size: 16px;
+  width: 38%;
+  float: left; }
+
+.grd-padded-lrg {
+  padding: 0% 10% 0% 10%;
+  overflow: hidden; }
+
+.grd-padded-sml {
+  padding: 10%;
+  overflow: hidden; }
+
+.grd-padded-side {
+  padding: 0 0 0 10%;
+  overflow: hidden; }
+
+.pullquote {
+  font-size: 25px; }
+
+/* 650 */
+@media screen and (max-width: 650px) {
+  body {
+    font-size: 1em; }
+
+  .grd-content {
+    float: none;
+    width: auto; }
+
+  .grd-sidebar {
+    float: none;
+    width: auto; }
+
+  .grd-padded {
+    padding: 20px; }
+
+  .pullquote {
+    font-size: 1em;
+    line-height: 1.5em; } }
+/* 320 */
+@media screen and (max-width: 500px) {
+  body {
+    font-size: 1em; }
+
+  .grd-content {
+    float: none;
+    width: auto; }
+
+  .grd-sidebar {
+    float: none;
+    width: auto; }
+
+  .grd-padded {
+    padding: 20px; }
+
+  .pullquote {
+    font-size: 1em;
+    line-height: 1.5em; } }
