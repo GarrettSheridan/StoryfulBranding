@@ -4,15 +4,12 @@
 /* Fonts */
 /* Boxes & Borders */
 /* EO */
-div {
-  border-radius: 3px; }
-
 body {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-size: 0.86em;
   background-color: whitesmoke;
   margin: 0px;
-  padding: 0px; }
+  padding: 0px;
+  line-height: 1.5em; }
 
 .header {
   background-color: #fa7300;
@@ -385,6 +382,9 @@ body {
   font-size: 16px;
   width: 38%;
   float: left; }
+
+.grd-padding {
+  padding: 10%; }
 
 .grd-padded-lrg {
   padding: 0% 10% 0% 10%;
